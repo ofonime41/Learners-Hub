@@ -1,0 +1,93 @@
+@import "./animation.css";
+
+body{
+    font-family: BlinkMacSystemFont, Roboto, "segoe ui", Helvetica, Arial, sans-serif;
+}
+.p_color1{
+    background-color: #933A57;
+
+}
+.color1{color:#20B7CB}
+
+.p_color2{
+    background-color:#F0F4F9;
+}
+
+.btn-color{
+    background-color:#B02848;
+}
+.btn-color:hover{
+    background-color:#B02848;
+    opacity:0.8;
+}
+
+.features_round{
+    width: 135px;
+    height: 135px;
+    border-radius: 100%;
+    font-size: 40px;
+    line-height:125px;
+    margin: 0 auto;
+}
+
+.card_bg1{
+    background-color: #FAFAFA;
+}
+
+/* BOX SHADOW */
+.box-shadow1{ box-shadow: 0px 8px 20px 0px rgb(0 0 0 / 16%)}
+
+.f-course{
+    font-size:0.9rem !important
+}
+.checked {
+    color: orange;
+  }
+
+  .m-course{
+      border:2px solid #B02848!important;
+      color:#B02848;
+  }
+
+
+
+  /* DASHBOARD */
+  .dash-button2{
+      margin-top:10px;
+     color:#B02848; 
+     border: 1px dashed #B02848 ;
+     font-size: 16px;
+
+  }
+
+  .dashboard-side-nav{
+      font-size: 22px;
+      font-weight:bold;
+     
+  }
+  .dashboard-side-nav a{
+    color:rgb(1,41,77)!important;
+
+  }
+
+  .dashboard-side-nav a:hover{
+    color:#B02848!important;
+
+  }
+  /* a:active{
+    color: green !important;;
+  } */
+
+
+@media (max-width: 991.98px) { 
+    .showcase img{ 
+        width: 100%;
+       align-items: center !important;
+
+
+    }
+    .showcase-content{
+        flex:none;
+       text-align: center;
+    }
+}

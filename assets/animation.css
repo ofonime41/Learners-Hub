@@ -1,0 +1,17 @@
+.f-course .card_bg1:hover{
+    background-color: #F1F3F4;
+    transition: background-color .4s;
+    transition-property: background-color;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s; 
+}
+
+.f-course img:hover{
+    transform: translateZ(0) rotate(.001deg) scale(1.01);
+    transition: transform .4s;
+    transition-property: transform;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}

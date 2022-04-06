@@ -1,0 +1,30 @@
+.bg-color{
+    background-color: #001F47;
+    
+
+}
+
+.p_color2{
+    background-color: #20B7CB;
+    
+
+}
+
+.admin .nav-link{
+    color: aliceblue;
+}
+.summary .card{
+    box-shadow: 0 0.125rem 0.125rem 0.25rem rgb(0 0 0 / 8%); 
+    border-radius: 15px 80px  15px  15px;
+}
+
+.featured_courses_card,.courses_table{
+
+    box-shadow: 0 0.125rem 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    border-radius: 15px;
+}
+.courses_table img{
+    width: 20%!important;
+    height: 40%!important;
+    
+}
