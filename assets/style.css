@@ -1,5 +1,13 @@
 @import "./animation.css";
 
+a{
+    text-decoration: none;
+    color:black
+}
+a:hover{
+    color:black
+}
+
 body{
     font-family: BlinkMacSystemFont, Roboto, "segoe ui", Helvetica, Arial, sans-serif;
 }
@@ -13,6 +21,10 @@ body{
     background-color:#F0F4F9;
 }
 
+.text-color2{
+    
+color:#3a343a
+}
 .btn-color{
     background-color:#B02848;
 }
@@ -21,7 +33,7 @@ body{
     opacity:0.8;
 }
 
-.features_round{
+.features_round{ 
     width: 135px;
     height: 135px;
     border-radius: 100%;
@@ -74,9 +86,18 @@ body{
     color:#B02848!important;
 
   }
-  /* a:active{
-    color: green !important;;
-  } */
+.course_preview li{ 
+    list-style-type: square;
+    color:#20B7CB;
+}
+
+.course_preview p{    
+    color:#3a343a;
+   
+}
+.course_preview img{
+    min-height:90%;
+}
 
 
 @media (max-width: 991.98px) { 
@@ -91,3 +112,4 @@ body{
        text-align: center;
     }
 }
+

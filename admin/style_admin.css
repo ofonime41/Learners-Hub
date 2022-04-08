@@ -28,3 +28,23 @@
     height: 40%!important;
     
 }
+
+
+.add_course form{
+    width:auto;
+    /* text-align: center; */
+}
+
+.add_course .modal-content{
+     max-width: 80% !important;
+     margin:0 auto;
+}
+
+.add_course textarea{
+    height: 200px !important;
+}
+
+.course_btn{
+    width: 100%;
+    text-align: center;
+} 
