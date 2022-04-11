@@ -1,115 +1,208 @@
 @import "./animation.css";
 
-a{
+a {
     text-decoration: none;
-    color:black
-}
-a:hover{
-    color:black
+    color: black
 }
 
-body{
+a:hover {
+    color: black
+}
+
+body {
     font-family: BlinkMacSystemFont, Roboto, "segoe ui", Helvetica, Arial, sans-serif;
 }
-.p_color1{
+
+.p_color1 {
     background-color: #933A57;
 
 }
-.color1{color:#20B7CB}
 
-.p_color2{
-    background-color:#F0F4F9;
-}
-
-.text-color2{
-    
-color:#3a343a
-}
-.btn-color{
-    background-color:#B02848;
-}
-.btn-color:hover{
-    background-color:#B02848;
-    opacity:0.8;
+.color1 {
+    color: #20B7CB
 }
 
-.features_round{ 
+.p_color2 {
+    background-color: #F0F4F9;
+}
+
+.text-color2 {
+
+    color: #3a343a
+}
+
+.btn-color {
+    background-color: #B02848;
+}
+
+.btn-color:hover {
+    background-color: #B02848;
+    opacity: 0.8;
+}
+
+.features_round {
     width: 135px;
     height: 135px;
     border-radius: 100%;
     font-size: 40px;
-    line-height:125px;
+    line-height: 125px;
     margin: 0 auto;
 }
 
-.card_bg1{
+.bg-color {
+    background-color: #001F47;
+
+
+}
+
+.card_bg1 {
     background-color: #FAFAFA;
 }
 
 /* BOX SHADOW */
-.box-shadow1{ box-shadow: 0px 8px 20px 0px rgb(0 0 0 / 16%)}
-
-.f-course{
-    font-size:0.9rem !important
+.box-shadow1 {
+    box-shadow: 0px 8px 20px 0px rgb(0 0 0 / 16%)
 }
+
+.f-course {
+    font-size: 0.9rem !important
+}
+
 .checked {
     color: orange;
-  }
+}
 
-  .m-course{
-      border:2px solid #B02848!important;
-      color:#B02848;
-  }
+.m-course {
+    border: 2px solid #B02848 !important;
+    color: #B02848;
+}
 
 
 
-  /* DASHBOARD */
-  .dash-button2{
-      margin-top:10px;
-     color:#B02848; 
-     border: 1px dashed #B02848 ;
-     font-size: 16px;
+/* DASHBOARD */
+.dash-button2 {
+    margin-top: 10px;
+    color: #B02848;
+    border: 1px dashed #B02848;
+    font-size: 16px;
 
-  }
+}
 
-  .dashboard-side-nav{
-      font-size: 22px;
-      font-weight:bold;
-     
-  }
-  .dashboard-side-nav a{
-    color:rgb(1,41,77)!important;
+.dashboard-side-nav {
+    font-size: 22px;
+    font-weight: bold;
 
-  }
+}
 
-  .dashboard-side-nav a:hover{
-    color:#B02848!important;
+.dashboard-side-nav a {
+    color: rgb(1, 41, 77) !important;
 
-  }
-.course_preview li{ 
+}
+
+.dashboard-side-nav a:hover {
+    color: #B02848 !important;
+
+}
+
+.course_preview li {
     list-style-type: square;
-    color:#20B7CB;
+    color: #20B7CB;
 }
 
-.course_preview p{    
-    color:#3a343a;
-   
+.course_preview p {
+    color: #3a343a;
+
 }
-.course_preview img{
-    min-height:90%;
+
+.course_preview img {
+    min-height: 90%;
+}
+
+.course_content,
+.course_main {
+    position: relative;
+}
+
+.video_scroll .bi-arrow-left {
+    position: absolute;
+    left: 5px;
+    bottom: 250px;
+    /* color:antiquewhite */
+
+}
+
+.video_scroll .bi-arrow-right {
+    position: absolute;
+    right: 5px;
+    bottom: 250px;
+
 }
 
 
-@media (max-width: 991.98px) { 
-    .showcase img{ 
+.video_sidebar .offcanvas-body {
+    margin-left: -16px !important;
+    padding-right: 16 !important;
+    background-color: #001F47;
+    border: none;
+
+}
+
+.video_sidebar .offcanvas-body label {
+    background-color: #001F47;
+}
+
+.video_sidebar .offcanvas-body label a {
+    color: white;
+}
+
+.video_sidebar .list-group-item {
+    border: 1px solid rgba(228, 216, 216, 0.849);
+    border-right: none;
+    border-left: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.video_sidebar .list-group-item:hover {
+    background-color: #B02848;
+}
+
+@media (max-width: 991.98px) {
+    .showcase .p-5 {
+        padding: 1rem !important;
+    }
+
+    .showcase img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767.5px) {
+    .showcase img {
         width: 100%;
-       align-items: center !important;
+    }
 
+    .course_preview img {
+        display: none;
+    }
+
+    .video_scroll .bi-arrow-left {
+        position: absolute;
+        left: 5px;
+        bottom: 100px;
 
     }
-    .showcase-content{
-        flex:none;
-       text-align: center;
+
+    .video_scroll .bi-arrow-right {
+        position: absolute;
+        right: 5px;
+        bottom: 100px;
+
     }
+
+    .course_main_canva {
+        position: absolute;
+        top: 100px;
+    }
+
 }
-

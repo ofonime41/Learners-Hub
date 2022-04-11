@@ -29,6 +29,10 @@
     
 }
 
+.admin_course_table .row{
+  
+    flex-wrap:nowrap!important;
+}
 
 .add_course form{
     width:auto;

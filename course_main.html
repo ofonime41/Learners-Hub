@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learners hub</title>
+  <link rel="stylesheet" type="text/css" href="./assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/style.css">
+  <script src="https://kit.fontawesome.com/4e6ec1237d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light my-3 ">
+    <div class="container">
+      <a class="navbar-brand h1" href="#">Learners Hub</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link  text-dark mx-lg-3 px-lg-3" href="login.html">Courses</a>
+          </li>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search Courses" aria-label="Search">
+            <button class="btn p_color1 text-light" type="submit">Search </button>
+          </form>
+
+        </ul>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link btn mx-lg-3 px-lg-3 text-dark" href="#"><span><i class="bi bi-person-circle"></i></span>
+              Christiana</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn mx-lg-3 px-lg-3 " href="#">Logout</a>
+          </li>
+        </ul>
+        <a class="nav-link btn text-secondary mx-lg-3 px-lg-3" href="#"><i class="bi bi-bell-fill"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="course_main ">
+    <div class="bg-dark  course_content">
+      <h5 class="text-center text-secondary pt-3">Introduction into HTML</h5>
+      <a class="fs-2 course_main_canva" data-bs-toggle="offcanvas" href="#lesson_list" aria-controls="lesson_list">
+        <i class="bi bi-arrow-left-circle text-light"></i>
+      </a>
+      <video class="bg-dark " width="100%" height="400" controls>
+        <source src="./assets/videos/html.mp4"  type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+   </div>
+
+
+    <div class="video_scroll">
+      <a class="fs-2 text-light" href="">
+        <i class="bi bi-arrow-left"></i>
+      </a>
+      <a class="fs-2 text-light" href="">
+        <i class="bi bi-arrow-right "></i>
+      </a>
+    </div>
+
+    <div class="video_sidebar ">
+      <div class="offcanvas offcanvas-start " tabindex="-1" id="lesson_list" aria-labelledby="lesson_listLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title fw-bold text-center" id="lesson_listLabel">Course Content</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body bg-color  fs-5">
+          <div class="list-group">
+            <label class="list-group-item text-light">
+              <input class="form-check-input me-1" type="checkbox" value="">
+              <a href="#">Lesson 0: What you will learn in this course</a>
+            </label>
+            <label class="list-group-item">
+              <input class="form-check-input me-1" type="checkbox" value="">
+              <a href="#">Lesson 1: Introduction to Web Development</a>
+            </label>
+            <label class="list-group-item">
+              <input class="form-check-input me-1" type="checkbox" value="">
+              <a href="#">Lesson 2: Introduction to HTML</a>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <div class="course_infor py-5 ">
+    <div class="container w-50">
+      <h5> Introduction to HTML!</h5>
+      <p>
+        In this lesson, the foundation for web development which is HTML is thought. 
+        You will learn the basic HTML tags, and build your first project in web.
+        
+        </p>
+
+    </div>
+  </div>
+
+
+
+
+  <footer class="p-5 text-light text-center " style="background-color: #001F47;">
+    <div class="container">
+      <p class="h5">copyright &copy; Learners Hub 2022</p>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="./assets/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
