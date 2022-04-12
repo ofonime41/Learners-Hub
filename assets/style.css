@@ -168,6 +168,14 @@ body {
 }
 
 @media (max-width: 991.98px) {
+    .index_nav{
+        text-align: center!important;
+    }
+    .index_nav li{
+        margin-bottom: 20px;
+        width: 50%;
+        margin: 5px auto;
+    }
     .showcase .p-5 {
         padding: 1rem !important;
     }
